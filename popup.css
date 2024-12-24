@@ -1,0 +1,49 @@
+a[data-v-5f58a176] {
+  color: #3379cb;
+  font-size: 13px;
+  text-decoration: none;
+}
+.popup-wrap[data-v-5f58a176] {
+  background: #fff;
+  width: 350px;
+}
+.popup-wrap .header[data-v-5f58a176] {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 8px #0000000d;
+}
+.popup-wrap .header .logo[data-v-5f58a176] {
+  height: 24px;
+}
+.popup-wrap .header .text[data-v-5f58a176] {
+  font-size: 14px;
+  color: #000000d9;
+  margin-left: 8px;
+  font-weight: bold;
+  flex: 1;
+}
+.popup-wrap .content[data-v-5f58a176] {
+  padding: 10px 20px;
+}
+.popup-wrap .content .item[data-v-5f58a176] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #0000000d;
+  font-size: 14px;
+  color: #000000d9;
+}
+.popup-wrap .content .item.last[data-v-5f58a176] {
+  border-bottom: none !important;
+}
+.popup-wrap .content .login-btn[data-v-5f58a176] {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.popup-wrap .content .update-btn[data-v-5f58a176] {
+  margin-left: 10px;
+  cursor: pointer;
+}

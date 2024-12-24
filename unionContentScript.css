@@ -1,0 +1,39 @@
+img {
+  pointer-events: auto !important;
+}
+.xp-img-popover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2147483647;
+  font-size: 13px;
+  line-height: 1;
+  padding: 5px;
+  height: 13px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.xp-img-popover .close-btn {
+  display: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 3px;
+  position: relative;
+  top: 1px;
+}
+.xp-img-popover .close-btn:hover {
+  color: #63c3ff;
+}
+.xp-img-popover:hover .close-btn {
+  display: inline;
+}
+.xp-img-popover a {
+  color: #fff;
+  text-decoration: none;
+}
+.xp-img-popover a:hover {
+  color: #63c3ff;
+}
